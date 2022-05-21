@@ -1,0 +1,122 @@
+body {
+  margin-left: 0px;
+  padding: 0px;
+  background: url("/Fotos/EncuentraWally.png");
+  background-repeat: repeat;
+
+  overflow: hidden;
+}
+
+#boton1 {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+.login {
+  background-color: #ffa07a;
+}
+
+button {
+  background: transparent;
+}
+
+#w1,
+#w2,
+#w3,
+#w4 {
+  height: 40px;
+  border: none;
+}
+
+#bv {
+  text-decoration: none;
+  opacity: 1;
+  cursor: default;
+  margin-left: 1400px;
+}
+.BarcoVela {
+  position: absolute;
+  margin-left: 20px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0;
+  cursor: default;
+}
+
+#w1 {
+  margin-top: 550px;
+  margin-left: 100px;
+  position: absolute;
+}
+#w2 {
+  margin-top: 550px;
+  margin-left: 850px;
+  position: absolute;
+}
+
+#w3 {
+  margin-top: 550px;
+  margin-left: 1600px;
+  position: absolute;
+}
+
+#w4 {
+  margin-left: 100px;
+}
+/* BOTÓN TRANSPARENTE color: rgba(0, 0, 0, 0);*/
+.text {
+  font-size: 28px;
+  font-family: helvetica;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

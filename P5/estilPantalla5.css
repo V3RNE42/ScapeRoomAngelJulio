@@ -1,0 +1,25 @@
+* {
+    background-color: bisque;
+}
+#wrapper {
+    margin: 2em;
+    padding: 1.5em;
+    max-width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#p1 {
+    display: flex;
+    flex-direction: column;
+}
+#p2, #p3, #final {
+    display: none;
+    flex-direction: column;
+}
+#contador {
+    color: red;
+}
+input {
+    max-width: 6.5em;
+}

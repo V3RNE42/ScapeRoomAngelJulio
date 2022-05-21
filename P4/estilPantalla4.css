@@ -1,0 +1,122 @@
+body {
+    background-image: url('./descarga.png');
+    color: rgb(0, 255, 247);
+    font-size: x-large;
+    font-weight: bolder;
+}
+#wrapper {
+    position: absolute;
+    left: 15%;
+    top: 6.5%;
+    margin: 1.25em;
+    padding: 0.25em;
+}
+#bomba {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    display: flex;
+    width: 30em;
+    height: 30em;
+    border-radius: 25em;
+    background-color: black;
+    color: rgba(0, 0, 0, 0);
+}
+#brillito {
+    position: absolute;
+    left: 54%;
+    top: 12%;
+    width: 3.6em;
+    height: 3.3em;
+    transform: rotate(16deg);
+    border-top-right-radius: 4.5em;
+    border-top-left-radius: 3.5em;
+    border-bottom-right-radius: 3.5em;
+    border-bottom-left-radius: 4.5em;
+    background-color: white;
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 7.5%;
+}
+#cuello {
+    position: absolute;
+    left: 115%;
+    top: 7.5%;
+    width: 8em;
+    height: 8em;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(7, 7, 7);
+    border-style: solid;
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: -1;
+}
+#contador {
+    position: absolute;
+    top: 210%;
+    left: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: red;
+    background-color: grey;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: 1em;
+    z-index: 1;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+    margin-bottom: 3em;
+}
+#final {
+    position: absolute;
+    top: 445%;
+}
+#cables {
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    margin-top: 0.6em;
+    padding: 0.2em;
+    border: 1em;
+    border-color: black;
+    color: black;
+    z-index: 2;
+}
+#verde {
+    margin-top: 2em;
+    padding: 0.2em;
+    border-style: solid;
+    border-radius: 0.5em;
+    background-color: red;
+    color: blue;
+}
+#azul {
+    margin-top: 2em;
+    padding: 0.2em;
+    border-style: solid;
+    border-radius: 0.5em;
+    background-color: green;
+    color: red;
+}
+#rojo {
+    margin-top: 2em;
+    padding: 0.2em;
+    border-radius: 0.5em;
+    border-style: solid;
+    background-color: blue;
+    color: green;
+}
+#miniFormulario, #salida {
+    display: none;
+}
+#salida {
+    margin-left: 20%;
+    font-size: xx-large;
+    z-index: 3;
+}

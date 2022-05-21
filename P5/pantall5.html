@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilPantalla5.css">
+    <script defer src="./javascript5.js"></script>
+    <title>PantallaFinal</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form>
+            <fieldset>
+                <legend>Test final</legend>
+                <p id="contador"></p>
+                <div id="p1">
+                    <label>¿Quién creó este ScapeRoom?</label>
+                    <input type="radio" name="p1" value="" id="correcto" onclick="pregunta1()">Ángel y Julio</input>
+                    <input type="radio" name="p1" value="" id="incorrecto" onclick="location.reload()">Jairo y Rufo</input>
+                    <input type="radio" name="p1" value="" id="incorrecto" onclick="location.reload()">Manolo Lama y Lola Flores</input>
+                </div>
+                
+                <div id="p2">
+                    <label>¿Qué nota merecemos?</label>
+                    <input type="number" name="p2" id="nota" onclick="pregunta2()">
+                </div>
+                
+                <div id="p3">
+                    <label>¿Sí?</label>
+                    <input type="radio" name="p3" id="si" onclick="pregunta3()">Sí</input>
+                    <input type="radio" name="p3" id="incorrecto" onclick="location.reload()">Sí</input>
+                    <input type="radio" name="p3" id="incorrecto" onclick="location.reload()">Sí</input>
+                    <input type="radio" name="p3" id="incorrecto" onclick="location.reload()">Sí</input>
+                    <input type="radio" name="p3" id="incorrecto" onclick="location.reload()">Sí</input>
+                </div>
+
+                <a id="final" href="https://www.youtube.com/watch?v=3GwjfUFyY6M&t=32s">Enhorabuena!!! Pantalla Celebratoria</a>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

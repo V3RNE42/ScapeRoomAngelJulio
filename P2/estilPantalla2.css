@@ -1,0 +1,42 @@
+body {
+  align-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+  background-image: url("https://piks-eldesmarqueporta.netdna-ssl.com/bin/2022/04/25/joaquin_posa_desnudo_con_la_copa_del_rey.png");
+}
+
+td {
+  color: burlywood;
+  background-color: burlywood;
+  border-radius: 0.15em;
+  padding: 0.1em;
+  margin: 0em;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.25em;
+  width: 1.75em;
+  height: 1.75em;
+}
+td:hover {
+  color: rgb(184, 97, 78);
+  background-color: rgb(184, 97, 78);
+  border-radius: 0.15em;
+  padding: 0em;
+  margin: 0em;
+  border-radius: 1.3em;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.125em;
+  width: 1.75em;
+  height: 1.75em;
+}
+
+#barco {
+  float: right;
+}
+
+#botones2 {
+  float: right;
+}
